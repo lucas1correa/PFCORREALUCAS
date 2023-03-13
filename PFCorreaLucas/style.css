@@ -1,0 +1,179 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Poppins:wght@200;500&display=swap');
+
+
+* {
+    padding:  0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.header{
+    font-size: 35px;
+    display: flex;
+    background: #222;
+    color: rgb(255, 249, 249);
+}
+
+.header h3 {
+
+    
+    margin: 10px;
+    font-size: 25px;
+}
+
+.header ul {
+ display: flex ;
+ position: relative;
+ justify-items: end ;
+ float: right;
+}
+
+
+.header ul li { 
+    color: rgb(255, 249, 249);
+    margin: 10px;
+    list-style: none;
+    display: flex ;
+ 
+}
+
+
+.header ul li a {
+    font-size: 25px;
+    display: flex ;
+    color: rgb(255, 249, 249);
+    text-decoration: none;
+    font-weight: 400;
+    display: inline-block;
+}
+
+.header ul li a:hover{
+    color: rgba(83, 82, 143, 0.76);
+}
+
+
+/*------------------about me ------------------------*/
+
+
+.banner{
+    position: relative;
+    min-height: 100vh;
+    background: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.banner .title {
+    color:  #fff;
+    size: 50px;
+    margin-left: 50px;
+}
+   
+    
+/*------------------section ------------------------*/   
+
+
+section{
+    position: relative;
+    min-height: 100vh;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    
+}
+
+
+
+
+
+.card{
+    background: #222;
+    margin: 25px; 
+    width:500px;
+    height: 450px;
+    border-radius: 5px;
+}
+
+.card img {
+    max-width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.card .card-body {
+    color: #fff;
+    
+    
+}
+
+.card .card-title {
+    font-size: 25px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.card .card-text {
+    font-size: 15px;
+    margin: 5px 10px 4px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+/*------------------footer ------------------------*/
+
+
+.content {
+    background: #222;
+    color:#fff;   
+    padding: 15px; 
+    font-size: 16px;
+}
+
+.content h4 {
+    color: rgb(192, 102, 228);
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.content h3 {
+    color: rgb(192, 102, 228);
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    
+    
+}
+.contactInfoBx .box{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+.contactInfoBx .box .icon{
+    min-width:40px ;
+    padding-top: 4px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+.contactInfoBx .box  .text{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: #fff;
+    flex-direction: column;
+    font-weight: 300;
+}
+
